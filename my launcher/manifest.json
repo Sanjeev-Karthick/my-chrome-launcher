@@ -1,0 +1,14 @@
+{
+    "name": "my launcher",
+    "description": "A simple chrome extension for my daily usage!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons":{
+        "128":"icon_128.png"
+    },
+    "browser_action":{
+        "default_icon":"icon.jpg",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+}
